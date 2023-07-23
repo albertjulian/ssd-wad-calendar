@@ -37,3 +37,39 @@
     transform: rotate(360deg);
   }
 }
+
+.calendar-body {
+  padding: 10px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  min-height: fit-content;
+}
+
+.bg-blue {
+  background-color: aquamarine;
+}
+
+.kotak-title {
+  border: 2px solid black;
+  min-width: 200px;
+  min-height: 10px;
+  background-color: black;
+  color: white;
+  padding: 5px;
+  font-size: 20px;
+}
+
+.kotak {
+  border: 2px solid black;
+  min-width: 200px;
+  min-height: 100px;
+  padding: 5px;
+  text-align: left;
+}
+
+.dialog {
+  min-width: 500px;
+}
